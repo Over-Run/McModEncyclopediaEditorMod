@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "id": "mmecem",
+  "version": "${version}",
+  "name": "McModEncyclopediaEditorMod",
+  "description": "Mc Mod Encyclopedia Editor Mod",
+  "authors": [
+    "OverrunOrganization"
+  ],
+  "contact": {
+    "website": "https://github.com/Over-Run/McModEncyclopediaEditorMod",
+    "repo": "https://github.com/Over-Run/McModEncyclopediaEditorMod"
+  },
+  "license": "MIT",
+  "icon": "assets/mmecem/icon.png",
+  "environment": "*",
+  "entrypoints": {
+    "client": [
+      "org.overrun.mmecem.client.MmecemClient"
+    ],
+    "main": [
+      "org.overrun.mmecem.Mmecem"
+    ]
+  },
+  "mixins": [
+    "mmecem.mixins.json"
+  ],
+  "depends": {
+    "fabricloader": ">=0.14.12",
+    "fabric": "*",
+    "minecraft": "1.19.3"
+  }
+}

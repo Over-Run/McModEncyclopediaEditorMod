@@ -1,0 +1,24 @@
+modLoader = "javafml" #mandatory
+loaderVersion = "[44,)"
+license = "All Rights Reserved"
+[[mods]] #mandatory
+modId = "mmecem" #mandatory
+version = "${file.jarVersion}" #mandatory
+displayName = "McModEncyclopediaEditorMod" #mandatory
+updateJSONURL = "https://github.com/Over-Run/McModEncyclopediaEditorMod" #optional
+authors = "OverrunOrganization" #optional
+description = '''
+Mc Mod Encyclopedia Editor Mod
+'''
+[[dependencies.mmecem]] #optional
+modId = "forge" #mandatory
+mandatory = true #mandatory
+versionRange = "[44,)" #mandatory
+ordering = "NONE"
+side = "BOTH"
+[[dependencies.mmecem]]
+modId = "minecraft"
+mandatory = true
+versionRange = "[1.19.3,1.20)"
+ordering = "NONE"
+side = "BOTH"
